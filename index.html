@@ -1,0 +1,26 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <link rel="icon" type="image/svg+xml" href="/vite.svg" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Reportes Mensuales Telemagic</title>
+    <style>
+      /* Cambiar el color del icono de calendario */
+      input[type="date"]::-webkit-calendar-picker-indicator {
+          filter: invert(25%) sepia(95%) saturate(800%) hue-rotate(290deg);
+      }
+      input[type="date"]::-webkit-inner-spin-button,
+      input[type="date"]::-webkit-clear-button {
+          display: none;
+      }
+      input[type="date"]::-ms-clear {
+          display: none;
+      }
+  </style>
+  </head>
+  <body class="bg-zinc-700 text-white">
+    <div id="root"></div>
+    <script type="module" src="/src/main.jsx"></script>
+  </body>
+</html>
